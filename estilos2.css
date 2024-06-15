@@ -1,0 +1,10 @@
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin: 2px;
+}

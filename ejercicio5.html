@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio5</title>
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h3>Elaborar un programa que permita dibujar un cuadro de círculos de 10 x 10.</h3>
+        </header>
+        <hr>
+        <section>
+            <script id="circle">
+                var filas = 10,columnas = 10,i = 0;
+                do {
+                    var j = 0;
+                    do {
+                        document.write("<div class=circle>"+"</div>");
+                        j++;
+                    } while (j < columnas);
+                    document.write("<br>"); 
+                    i++;
+                }
+                 while (i < filas);
+            </script>
+        </section>
+    </main>
+</body>
+</html>

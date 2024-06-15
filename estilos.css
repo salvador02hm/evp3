@@ -1,0 +1,22 @@
+body{
+    border: 1px solid red;
+}
+main{
+    width: 75%;
+    margin: auto;
+    border: 1px solid red;
+}
+header{
+    height: 50px;
+    background-color: azure;
+}
+hr{
+    width: 50%;
+    margin: auto;
+    border: 1px dotted blue;
+}
+section{
+
+    background-color: beige;
+
+}

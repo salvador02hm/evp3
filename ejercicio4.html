@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio4</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h3>Dado N calcular: (11)+(22)+(33)+……(NN)</h3>
+        </header>
+        <hr>
+        <section>
+            <script>
+                var N,input;
+
+                while (true) {
+                    input = prompt("Ingrese un número entero positivo para N:");
+                    N = parseInt(input); 
+                    
+                
+                    if (!isNaN(N) && N > 0) {
+                        break;
+                    } else {
+                        alert("Debe ingresar un número entero positivo."); 
+                    }
+                }
+
+                var suma = 0; 
+                var i = 1; 
+
+
+                while (i <= N) {
+                    var termino = i * 10 + i;
+                    suma += termino;
+                    i++;
+                }
+
+
+                document.write("<p>La suma de la serie (11) + (22) + (33) + ... + (" + N + N + ") es: " + suma + "</p>");
+
+            </script>
+        </section>
+    </main>
+</body>
+</html>
